@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import "./_variables";
+
+@mixin flexCenter($justify_content, $align-items) {
+  display: flex;
+  justify-content: $justify_content;
+  align-items: $align-items;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  
+  width: 100%;
+  // height: 100vh;
+ 
+  font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+  background-color: $backgroundBody;  
+}
+
+main {
+  width: 720px;
+  height: auto;
+  background-color: $backgroundMain;  
+}
+
+/* section wrapper */
+#wrapper {  
+  background-color: white;
+  padding: 1em;  
+}
+
+header {
+@include flexCenter(space-between, center);
+}
+
+.logoSize {
+  width: 5em;
+  height: auto;  
+}
+
+.socialSize {
+  width: 2em;
+  height: auto;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+  list-style-type: none;
+}
+/* ----------------------- */ 
+
+/* section hero */
+#hero {
+  display: flex;
+  
+  width: 100%;
+  min-height: 350px;
+  color: $colorFont;
+  background-color: $backgroundHero;  
+
+  .col1 {
+    width: 60%;
+    padding: 10px 0 0 10px;
+
+    h2 {
+      font-size: 2em;
+    }
+
+    p {
+      margin-top: 15px;
+      margin-bottom: 25px;
+    }
+  }
+
+  .col2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+  }
+
+}
+
+.montagemSize {
+  width: 100%;
+}
+/* -------------------*/
+
+/* section emailMarketing */
+#emailMarketing {
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+  }
+
+}
+
+/* section portfolio */
+.portfolio {
+
+}
+
+/* section rodape */
+.rodape {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  height: 100px;
+
+}
+/* section rodape */

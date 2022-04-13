@@ -1,3 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
   background-color: #e7e9f0;
 }
+
+main {
+  width: 720px;
+  height: auto;
+  background-color: #f6faff;
+}
+
+/* section wrapper */
+#wrapper {
+  background-color: white;
+  padding: 1em;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logoSize {
+  width: 5em;
+  height: auto;
+}
+
+.socialSize {
+  width: 2em;
+  height: auto;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1em;
+  list-style-type: none;
+}
+
+/* ----------------------- */
+/* section hero */
+#hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  min-height: 350px;
+  color: #ffffff;
+  background-color: #df0031;
+}
+
+#hero .col1 {
+  width: 60%;
+  padding: 10px 0 0 10px;
+}
+
+#hero .col1 h2 {
+  font-size: 2em;
+}
+
+#hero .col1 p {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+#hero .col2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 35%;
+}
+
+.montagemSize {
+  width: 100%;
+}
+
+/* -------------------*/
+/* section emailMarketing */
+#emailMarketing ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+/* section portfolio */
+/* section rodape */
+.rodape {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  background-color: black;
+  height: 100px;
+}
+
+/* section rodape */
+/*# sourceMappingURL=style.css.map */
