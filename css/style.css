@@ -201,4 +201,78 @@ ul {
 }
 
 /* section rodape */
+/* media queries */
+/*----------------------------------------------------------*/
+@media only screen and (max-width: 600px) {
+  /* section hero */
+  #hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    min-height: 350px;
+    color: #ffffff;
+    background-color: #df0031;
+  }
+  #hero .col1 {
+    width: 100%;
+    padding: 10px 0 0 10px;
+    margin-bottom: 10px;
+  }
+  #hero .col1 h2 {
+    font-size: 2em;
+  }
+  #hero .col1 p {
+    padding: 0 10px 0 10px;
+  }
+  #hero .col2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  /* section emailMarketing */
+  #emailMarketing {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0 10px 0 10px;
+  }
+  #emailMarketing ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-top: 10px;
+    line-height: 100%;
+  }
+  /* section portfolio */
+  .container .portfolio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 /*# sourceMappingURL=style.css.map */
