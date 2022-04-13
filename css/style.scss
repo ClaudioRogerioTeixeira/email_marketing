@@ -80,14 +80,31 @@ ul {
       margin-top: 15px;
       margin-bottom: 25px;
     }
+
+    .btnSaiba {
+      text-decoration: none;
+      color: $colorFont;
+      border: solid 2px $colorFont;
+      border-radius: 5px;
+      padding: 0.5em;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+
+    .btnSaiba:hover {
+      border: solid 2px #000000;
+    }
+
+    .col2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 35%;
+    }
+  
+
   }
 
-  .col2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 35%;
-  }
 
 }
 
@@ -98,19 +115,49 @@ ul {
 
 /* section emailMarketing */
 #emailMarketing {
+  margin-top: 10px;
+  margin-left: 10px;
+
+
+  h2 {
+    color: red;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
 
   ul {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-top: 10px;
+    line-height: 25%;
 
   }
 
 }
 
 /* section portfolio */
-.portfolio {
+.container {
+  margin-top: 20px;
+  margin-left: 10px;
 
+  h2 {
+    color: red;
+    justify-content: center;
+  }
+
+  .portfolio {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }  
+  
 }
 
 /* section rodape */

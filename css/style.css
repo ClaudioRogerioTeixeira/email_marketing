@@ -93,7 +93,21 @@ ul {
   margin-bottom: 25px;
 }
 
-#hero .col2 {
+#hero .col1 .btnSaiba {
+  text-decoration: none;
+  color: #ffffff;
+  border: solid 2px #ffffff;
+  border-radius: 5px;
+  padding: 0.5em;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+#hero .col1 .btnSaiba:hover {
+  border: solid 2px #000000;
+}
+
+#hero .col1 .col2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -112,6 +126,21 @@ ul {
 
 /* -------------------*/
 /* section emailMarketing */
+#emailMarketing {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#emailMarketing h2 {
+  color: red;
+  margin-bottom: 10px;
+}
+
+#emailMarketing p {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
 #emailMarketing ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -123,9 +152,34 @@ ul {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  margin-top: 10px;
+  line-height: 25%;
 }
 
 /* section portfolio */
+.container {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.container h2 {
+  color: red;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
 /* section rodape */
 .rodape {
   display: -webkit-box;
